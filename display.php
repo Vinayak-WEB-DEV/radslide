@@ -27,7 +27,7 @@ function radslide($id, $display=true) {
 	}
 
 	if($display) {
-		echo($html);
+		echo $html;
 	} else {
 		return $html;
 	}
